@@ -1,0 +1,420 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.san-pham {
+    position: relative;
+    display: inline-flex;
+}
+
+.san-pham .san-pham-btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.san-pham .san-pham-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 70px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    margin-top: 25px;
+}
+
+.san-pham .san-pham-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    width: 200px;
+}
+
+.san-pham .san-pham-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.san-pham:hover .san-pham-content {
+    display: block;
+}
+
+.san-pham:hover .san-pham-btn {
+    background-color: #0cc4f1;
+}
+
+.search-top-header {
+    border-radius: 20px;
+}
+
+.hdt-btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.login {
+    display: flex;
+    flex-direction: row;
+    color: black;
+    padding: 16px;
+}
+
+.khoi-chung {
+    color: black;
+    padding: 16px;
+    text-align: center;
+}
+
+.box-search-top-header {
+    padding: 16px;
+}
+
+
+/* Search bar */
+
+.active-pink-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.active-pink input.form-control[type=text] {
+    border-bottom: 1px solid #f48fb1;
+    box-shadow: 0 1px 0 0 #f48fb1;
+}
+
+.active-purple-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+}
+
+.active-purple input.form-control[type=text] {
+    border-bottom: 1px solid #ce93d8;
+    box-shadow: 0 1px 0 0 #ce93d8;
+}
+
+.active-cyan-2 input.form-control[type=text]:focus:not([readonly]) {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.active-cyan input.form-control[type=text] {
+    border-bottom: 1px solid #4dd0e1;
+    box-shadow: 0 1px 0 0 #4dd0e1;
+}
+
+.search-bar {
+    padding: 16px;
+}
+
+.btn-search {
+    padding: 16px;
+}
+
+.btn-search-btn {
+    background-color: orangered;
+    color: white;
+    font-size: 16px;
+    height: 30px;
+    margin-top: 5px;
+}
+
+
+/* Danh muc */
+
+.danh_muc {
+    position: relative;
+    display: inline-block;
+}
+
+.danh_muc .danh_muc_btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.danh_muc .danh_muc_content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 250px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.danh_muc .danh_muc_content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.danh_muc .danh_muc_content a:hover {
+    background-color: #f1f1f1;
+}
+
+.danh_muc:hover .danh_muc_content {
+    display: block;
+}
+
+.danh_muc:hover .danh_muc_btn {
+    color: orangered;
+}
+
+.danh_muc_btn {
+    background-color: white;
+    color: black;
+    font-size: 16px;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.danh_muc_btn:hover {
+    color: orangered;
+}
+
+
+/*  */
+
+.nav-top-header {
+    justify-content: center;
+}
+
+.nav-bottom-header {
+    justify-content: center;
+}
+
+.btn-thiet-bi-bao-ho {
+    width: 200px;
+    height: 50px;
+    font-size: 16px;
+}
+
+.tbbh {
+    justify-content: center;
+}
+
+.tbbh li button {
+    font-size: 16px;
+    color: blue;
+}
+
+.tbbh li h3 {}
+
+
+/* Menu ngang */
+
+.menu-doc li {
+    height: 30px;
+    width: 300px;
+    list-style: none;
+    padding: 0px 10px;
+    background-color: orangered;
+    border-bottom: none;
+    position: relative;
+}
+
+.menu-doc li ul {
+    position: absolute;
+    top: -1px;
+    right: -300px;
+    display: none;
+}
+
+.menu-doc li:hover ul {
+    display: block;
+}
+
+.arrow {
+    float: right;
+}
+
+.menu-doc li a {
+    text-decoration: none;
+    color: white;
+}
+
+.menu-doc li a:hover {
+    color: orangered;
+    border: 1px solid orangered;
+    background-color: palegreen;
+}
+
+.nav-menu-body {
+    justify-content: center;
+    flex-direction: row;
+}
+
+.image-carousel {
+    display: table;
+    margin: 0 auto;
+}
+
+.img1 {
+    height: 500px;
+    width: 100%;
+}
+
+.bottom-section {
+    display: flex;
+    /* flex-direction: row;
+    justify-content: center; */
+}
+
+.left-bottom-section {
+    width: 30%;
+}
+
+.right-bottom-section {
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.top_footer {
+    text-align: center;
+}
+
+.search_btn_footer {
+    border-radius: 20px;
+    background-color: yellow;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.search_btn_footer:hover {
+    background-color: red;
+}
+
+.email_footer {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #282929;
+}
+
+.bottom_footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.font_white {
+    color: white;
+    font-size: 20px;
+}
+
+.p1 {
+    font-size: 18px;
+    color: #586262;
+}
+
+.p1:hover {
+    color: white;
+}
+
+
+/* social img */
+
+.logo_social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.van_chuyen {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.topcv {
+    text-align: center;
+}
+
+
+/* Product */
+
+.top_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.product_img {
+    width: 300px;
+    height: 200px;
+}
+
+.product_name {
+    text-align: center;
+}
+
+.bottom_product {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.product_title {
+    margin-left: 70px;
+}
+
+.product:hover {
+    background-color: #8B9F9C;
+    color: red;
+}
+
+
+/* Design */
+
+.top_design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.bottom_design {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
+
+.description {
+    background-color: #2DBEB3;
+}
+
+.d {
+    color: white;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 70px;
+    margin-right: 70px;
+}
